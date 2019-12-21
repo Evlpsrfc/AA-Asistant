@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AA助手</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AA助手</string>
+    <string name="nav_header_subtitle">“基于用户需求的APP开发”课程作业</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_bill">账单</string>
+    <string name="menu_users">用户</string>
+    <string name="menu_history">历史</string>
+    <string name="menu_individuation">个性化</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_compute">结账</string>
+
+    <string name="input_name">姓名</string>
+    <string name="input_money">金额</string>
+    <string name="input_remark">备注</string>
+    <string name="add_bill_item">＋ 记一笔</string>
+    <string name="close_bill">结账</string>
+    <string name="user_prompt">用户名</string>
+    <string name="clear_users">清空</string>
+    <string name="add_user_item">添加用户</string>
+    <string name="give_to">=></string>
+    <string name="ensure_close_bill">确认结账</string>
+
+</resources>

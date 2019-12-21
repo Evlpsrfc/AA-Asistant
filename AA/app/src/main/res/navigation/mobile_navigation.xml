@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bill">
+
+    <fragment
+        android:id="@+id/nav_bill"
+        android:name="com.example.aa.ui.bill.BillFragment"
+        android:label="@string/menu_bill"
+        tools:layout="@layout/fragment_bill" />
+
+    <fragment
+        android:id="@+id/nav_compute"
+        android:name="com.example.aa.ui.bill.ComputeFragment"
+        android:label="@string/menu_compute"
+        tools:layout="@layout/fragment_compute" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.example.aa.ui.users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.aa.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_individuation"
+        android:name="com.example.aa.ui.individuation.IndividuationFragment"
+        android:label="@string/menu_individuation"
+        tools:layout="@layout/fragment_individuation" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.aa.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.aa.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
